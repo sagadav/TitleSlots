@@ -1,0 +1,73 @@
+body {
+    background: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+button {
+    outline: none;
+}
+#title-slot {
+    margin: 100px auto 0 auto;
+    background: white;
+    padding: 25px;
+    max-width: 600px;
+    width: 90vw;
+}
+
+#logo {
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 35px;
+}
+.center {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 15px 30px;
+    cursor: pointer;
+    background: white;
+    transition: background .3s;
+    border: 1px solid
+}
+.buttons button:hover {
+    background: #f8f8f8;
+}
+.buttons-lang {
+
+}
+.buttons-column {
+    display: grid;
+    grid-gap: 15px 0;
+}
+.my-2 {
+    margin: 2em 0;
+}
+.m-0 {
+    margin: 0 !important;
+}
+.mt-1 {
+    margin-top: 1em;
+}
+.mt-2 {
+    margin-top: 2em;
+}
+.mt-3 {
+    margin-top: 3em;
+}
+.mt-4 {
+    margin-top: 4em;
+}
+.mt-5 {
+    margin-top: 5em;
+}
+.container {
+    width: calc(100vw - 200px);
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+}
