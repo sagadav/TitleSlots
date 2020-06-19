@@ -3,13 +3,7 @@ import './lang.js';
 import Config from "./config.js"
 const spin = document.getElementById('spin');
 const add_slot = document.getElementById('add-slot');
-
-
-
 const slots = ['💎','🔮','🏆'];
-
-
-
 const animations = new Animations();
 
 //todo: add user slot
@@ -62,9 +56,7 @@ const slotsAnimation = async () => {
     let speed = 20;
     while (animations.isPlay('game')) {
         const slotsRandom = getSlots();
-        document.title = slotsRandom.reduce((acc, val) => {
-            return acc + val;
-        }, '');
+        document.title = slotsRandom.join('');
         if(speed >= 1000) {
             checkWin(slotsRandom);
         }
